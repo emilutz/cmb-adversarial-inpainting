@@ -1,0 +1,22 @@
+name: cmb-adv-inp
+channels:
+  - conda-forge
+dependencies:
+  - graphviz
+  - matplotlib
+  - numpy
+  - opencv
+  - pip
+  - pre-commit
+  - pydot
+  - python=3.7.9
+  - scipy
+  - pip:
+    - black
+    - flake8
+    - python-decouple
+    - static-variables
+    - tensorboard
+    - tensorflow==2.5
+    - tensorflow-probability==0.7.0
+    - tqdm
